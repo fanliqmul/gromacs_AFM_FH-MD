@@ -31,7 +31,7 @@ gmx mdrun -ntomp 1
 Option `-ntomp 1` means that MD-FH coupling currently does not support OpenMP (shared memory) parallelism. But MPI and Gromacs tMPI parallelisation is supported and will be activated by default.
 
 # Reference
-The paper describe the method can be found here 
+The paper described the method can be found here 
 3.	Fan Li, Ivan Korotkin, Makoto Taiji, Stoyan K. Smoukov, and Sergey Karabasov* “The interfacial layer breaker: a violation of Stokes’ law in high-speed Atomic Force Microscope flows” (Lammuir, 2023)  https://doi.org/10.1021/acs.langmuir.2c02418
 
 ## Licensing
