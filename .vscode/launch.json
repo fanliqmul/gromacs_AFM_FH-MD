@@ -1,0 +1,44 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [        
+        {
+            "name": "gromacs",
+            "program": "/usr/bin/mpirun",
+            "args": ["-np","4","/home/fanli/workspace/gromacs_fh_debug/build/bin/gmx_mpi","mdrun","-s","diff.tpr","-deffnm","diff","-ntomp","1"],
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "autoAttachChildProcesses": true,
+            "type": "node"
+            
+            
+        },
+        
+
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            //"program": "/usr/bin/mpirun",
+            //"args": ["-np","4","/home/fanli/workspace/gromacs_fh_debug/build/bin/gmx_mpi","mdrun","-s","diff.tpr","-deffnm","diff","-ntomp","1"],
+            "program": "/home/fanli/workspace/gromacs_fh_debug/build/bin/gmx_mpi",
+            "args": ["mdrun","-s","diff.tpr","-deffnm","diff","-ntomp","1"],
+            "stopAtEntry": false,
+            "cwd": "/home/fanli/workspace/protein_water/double/40ms",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
