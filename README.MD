@@ -30,6 +30,10 @@ gmx mdrun -ntomp 1
 
 Option `-ntomp 1` means that MD-FH coupling currently does not support OpenMP (shared memory) parallelism. But MPI and Gromacs tMPI parallelisation is supported and will be activated by default.
 
+# Reference
+The paper describe the method can be found here 
+3.	Fan Li, Ivan Korotkin, Makoto Taiji, Stoyan K. Smoukov, and Sergey Karabasov* “The interfacial layer breaker: a violation of Stokes’ law in high-speed Atomic Force Microscope flows” (Lammuir, 2023)  https://doi.org/10.1021/acs.langmuir.2c02418
+
 ## Licensing
 
 -   GROMACS is open source software distributed under the GNU Lesser General Public License (LGPL) Version 2.1 or (at your option) any later version. GROMACS includes optional code covered by several different licences. See [COPYING](https://github.com/ikorotkin/gromacs_AFM_FH-MD/blob/main/COPYING) file for details.
