@@ -32,7 +32,10 @@ Option `-ntomp 1` means that MD-FH coupling currently does not support OpenMP (s
 
 # Reference
 The paper described the method can be found here 
-3.	Fan Li, Ivan Korotkin, Makoto Taiji, Stoyan K. Smoukov, and Sergey Karabasov* “The interfacial layer breaker: a violation of Stokes’ law in high-speed Atomic Force Microscope flows” (Lammuir, 2023)  https://doi.org/10.1021/acs.langmuir.2c02418
+
+1.Fan Li, Ivan Korotkin, Makoto Taiji, Stoyan K. Smoukov, and Sergey Karabasov* “The interfacial layer breaker: a violation of Stokes’ law in high-speed Atomic Force Microscope flows” (Langmuir, 2023)  https://doi.org/10.1021/acs.langmuir.2c02418
+
+2.Fan Li, Ivan A. Korotkin, Vladimir Farafonov, and Sergey Karabasov “Lateral migration of proteins in transversely sheared flows in water: a scale-resolved simulation” (Journal of Molecular Liquids, 2021) https://doi.org/10.1016/j.molliq.2021.116111
 
 ## Licensing
 
